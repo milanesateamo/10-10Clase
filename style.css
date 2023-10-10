@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Gabarito:wght@500&family=Poppins:wght@500&family=Raleway:wght@300&family=Roboto:wght@300;400&display=swap");
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+body{
+    background-color: rgb(247, 222, 222);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+.tarjeta{
+    width: 250px;
+    border: 5px solid #949090;
+    background-color: rgb(233, 212, 245);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.botontarjeta{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #949090;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+
+
+
+}
+nav{
+    background-color: rgb(184, 170, 194);
+    padding: 20px;
+    color: white;
+}
